@@ -1,0 +1,13 @@
+﻿body 
+{
+    margin:0;
+    background-color:#1853a3;
+}
+
+.tblmiddle
+{
+     background-color:White;
+    width:100%;
+    -moz-border-radius: 6px;/* firefox*/
+    border-radius: 6px;/*other*/
+}

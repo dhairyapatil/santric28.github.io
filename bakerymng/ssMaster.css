@@ -1,0 +1,139 @@
+﻿body 
+{
+    background-color:#e4dee0;
+    margin: 0 0 0 0;
+}
+
+
+#tblMain
+{
+    background-color:White;
+    -moz-border-radius: 8px;/* firefox*/
+    border-radius: 8px;/*other*/  
+}
+
+.dMBg
+{
+    background-color:White;
+     -moz-border-radius: 8px;/* firefox*/
+    border-radius: 8px;/*other*/
+   /* opacity:0.7;/*other*/
+   /* filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+.tblMenu
+{
+  
+    width:100%;
+    border-bottom-style:solid;
+    border-bottom-color:#6D1D1D;
+    border-bottom-width:1px;
+    -moz-border-radius: 8px;/* firefox*/
+    border-radius: 8px;/*other*/
+}
+.sMHBg
+{
+    color:Yellow;
+    -moz-border-radius: 8px;/* firefox*/
+    border-radius: 8px;/*other*/
+}
+
+#tblHeader
+{
+    -moz-border-radius: 8px;/* firefox*/
+    border-radius: 8px;/*other*/  
+}
+.imgbg
+{
+      -moz-border-radius: 4px;/* firefox*/
+    border-radius: 4px;/*other*/  
+}
+.a_td:hover
+{
+    border-color:#663300;
+    background-color:Red;
+}
+
+.tdHover
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #530000; 
+    background-color: #F5ECE2; 
+    border: 1px solid #996633; 
+    padding: 10px; 
+    text-align:center;
+}
+.tdHover:hover
+{
+   border-color:Blue;
+   background-color:#F4FDFF;
+}
+.lva
+{
+    color: #530000; 
+    text-decoration:none;
+}
+
+.menu
+{
+    margin:0;
+    list-style:none;
+}
+.menu li
+{
+    float:left;
+}
+.menu li a
+{
+    color:Maroon;
+    font-family:Arial;
+    text-decoration:none;
+    padding:5px 20px 5px 20px;
+}
+.menu li ul
+{
+    display:none;
+    position:fixed;
+    width:250px;
+    background-color:White;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    padding:30px;
+    list-style:none;
+     opacity:0.60;/*other*/
+    filter:alpha(opacity=60); /* For IE8 and earlier*/ 
+}
+.menu li:hover ul
+{
+    display:block;
+}
+.menu li ul li
+{
+    padding:5px;
+}
+.menu li:hover a
+{
+    color:Black;
+}
+
+.cart_row
+{
+    background-color:#fceebc;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    padding:5px;
+    margin:5px;
+    border:none;
+        font-family:Calibri;
+    font-size:larger;
+}
+.cart_row_header
+{
+    background-color:#f2b746;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    padding:5px;
+    margin:5px;
+    border:none;
+    font-family:Calibri;
+    font-size:larger;
+}

@@ -1,0 +1,73 @@
+﻿/*    -moz-border-radius: 8px;/* firefox*/
+/*    border-radius: 8px;/*other*/
+/*    opacity:0.4;/*other*/
+/*    filter:alpha(opacity=40); /* For IE8 and earlier */
+
+
+body 
+{
+    margin:0;
+}
+.trHaderTop
+{
+    width:100%;
+    background-color:#181a41;  
+    position:fixed;
+    opacity:0.8;/*other*/
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.trContPH
+{
+    width:85%;
+    background-color:#181a41; 
+    -moz-border-radius: 6px;/* firefox*/
+    border-radius: 6px;/*other*/ 
+    opacity:0.8;/*other*/
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.menu_admin
+{
+   margin:0;
+   padding:0;
+   list-style:none;
+    width: 1035px;
+}
+.menu_admin li
+{
+   float:left;
+}
+.menu_admin li a
+{
+  color:White;
+  font-family:Arial;
+  padding:5px 20px 5px 20px;
+  text-decoration:none;
+}
+.menu_admin li a:hover 
+{ color:Orange;
+}
+.menu_admin li a:active
+{
+  color:Orange;
+}
+.menu_admin li ul
+{
+    display:none;
+    position:fixed;
+    background-color:Black;
+    margin:0;
+    -moz-border-radius: 8px;/* firefox*/
+    border-radius: 8px;/*other*/
+    opacity:0.8;/*other*/
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.menu_admin li ul li
+{
+  padding:5px 10px 5px 10px;
+}
+.menu_admin li:hover ul
+{
+    display:block;
+    position:fixed;
+}

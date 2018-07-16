@@ -1,0 +1,7 @@
+﻿
+.tdadmin_login_bg
+{
+    background-color:White;
+    -moz-border-radius: 6px;/* firefox*/
+    border-radius: 6px;/*other*/ 
+}

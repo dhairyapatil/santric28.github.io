@@ -1,0 +1,280 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<link rel="Stylesheet" href="ssMaster.css" type="text/css" />
+<link rel="Stylesheet" href="ssDefault.css" type="text/css" />
+<link rel="Stylesheet" href="frmWerare.aspx" type="text/css" />
+<link rel="Stylesheet" href="sslogin.css" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 961px;
+        }
+        .style3
+        {
+            height: 79px;
+        }
+        .style4
+        {
+            width: 961px;
+            height: 79px;
+        }
+        .style5
+        {
+            width: 166px;
+        }
+        .style6
+        {
+            width: 832px;
+        }
+    .style7
+    {
+        width: 654px;
+    }
+        .style9
+        {
+            width: 239px;
+        }
+        .style10
+        {
+            width: 352px;
+        }
+        .style11
+        {
+            width: 125px;
+        }
+        .style12
+        {
+            width: 484px;
+        }
+        .style13
+        {
+            width: 359px;
+        }
+        .style14
+        {
+            width: 117px;
+        }
+        </style>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+
+    <table class="style1">
+        <tr>
+            <td class="style3">
+            </td>
+            <td class="style4" valign="bottom">
+                <table id="tblHeader" class="style1">
+                    <tr>
+                        <td class="style11" valign="bottom">
+                            <asp:Image ID="Image5" runat="server" Height="70px" 
+                                ImageUrl="~/ico_master/logo_bakery.png" Width="70px" />
+                        </td>
+                        <td class="style12" valign="bottom">
+                            <table class="style1" cellpadding="0">
+                                <tr>
+                                    <td class="style13">
+                                        &nbsp;</td>
+                                    <td>
+                                        &nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td class="style13">
+                            <asp:Label ID="Label1" runat="server" Font-Names="Forte" Font-Size="30pt" 
+                                ForeColor="#0000CC" Text="Online-Bakery"></asp:Label>
+                                    </td>
+                                    <td>
+                                        &nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td valign="bottom">
+                            <table class="style1">
+                                <tr>
+                                    <td>
+                                        &nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        &nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <asp:Label ID="lblUName" runat="server" Font-Names="AR CENA" 
+                                            ForeColor="#000099"></asp:Label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="style3">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td id="tblMain" class="style2">
+                <table class="style1">
+                    <tr>
+                        <td>
+                            <table class="tblMenu">
+                                <tr>
+                                    <td class="style6">
+                                        <ul class="menu">
+                                            <li><a href="Default.aspx">Home</a></li>
+                                            <li><a href="frmWeare.aspx">About Us</a></li>
+                                            <li><a href="frmCategory.aspx">Products</a></li>
+                                            <li><a href="frmContactUs.aspx">Contact Us</a></li>
+                                            <li><a href="frmFeedback.aspx">Feedback</a></li>
+                                            <li><a href="frmCart.aspx">Cart</a>
+                                                <ul>
+                                                    <li>
+                                                        <asp:Label ID="lblCItem" runat="server" Text="Label" Font-Names="Arial" ForeColor="#006600"></asp:Label>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td class="style5" align="center">
+                                        &nbsp;</td>
+                                    <td>
+                                        <asp:HyperLink ID="hlLogin" runat="server" Font-Names="Calibri" 
+                                            Font-Size="Large" ForeColor="#6D1D1D" Font-Underline="False" 
+                                            NavigateUrl="~/frmLogin.aspx">Login</asp:HyperLink>
+                                    </td>
+                                    <td>
+                                        &nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+            <table class="style1">
+                <tr>
+                    <td class="style7">
+                          <object
+                            classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                            codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0"
+                            id="flash"
+                            width="652" height="358"
+                          >
+                            <param name="movie" value="flash.swf">
+                            <param name="bgcolor" value="#FFFFFF">
+                            <param name="quality" value="high">
+                            <param name="seamlesstabbing" value="false">
+                            <param name="allowscriptaccess" value="samedomain">
+                            <param name="wmode" value="transparent">
+                            <embed
+                              type="application/x-shockwave-flash"
+                              pluginspage="http://www.adobe.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"
+                              name="flash"
+                              width="652" height="358"
+                              wmode="transparent"
+                              src="flash.swf"
+                              bgcolor="#FFFFFF"
+                              quality="high"
+                              seamlesstabbing="false"
+                              allowscriptaccess="samedomain"
+                            >
+                              <noembed>
+                              </noembed>
+                            </embed>
+                          </object>
+                    </td>
+                    <td valign="top">
+                        <table class="style1" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <asp:Image ID="Image2" runat="server" Height="100px" Width="280px" 
+                                        CssClass="img" ImageUrl="~/ico_Default/online_1.png" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:Image ID="Image3" runat="server" Height="100px" Width="280px" 
+                                        CssClass="img" ImageUrl="~/ico_Default/online_2.png" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:Image ID="Image4" runat="server" Height="100px" Width="280px" 
+                                        CssClass="img" ImageUrl="~/ico_Default/online_3.png" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" 
+                            style="border-top-style: dotted; border-color: #993300; border-top-width: 2px;">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                    </table>
+            </td>
+            <td>
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td class="style2">
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td class="style2" 
+                style="border-top-style: solid; border-top-width: 1px; border-top-color: #6D1D1D; margin-top: 10px;">
+                <table class="style1">
+                    <tr>
+                        <td class="style14">
+                            &nbsp;</td>
+                        <td class="style10">
+                            &nbsp;</td>
+                        <td class="style9">
+                                        <asp:HyperLink ID="HyperLink3" runat="server" Font-Names="Calibri" 
+                                            Font-Size="Medium" ForeColor="Maroon" Font-Underline="False" 
+                                            NavigateUrl="~/frmAdminLogin.aspx">Admin</asp:HyperLink>
+                                    </td>
+                        <td>
+                                        <asp:HyperLink ID="HyperLink2" runat="server" Font-Names="Calibri" 
+                                            Font-Size="Medium" ForeColor="#FF3300">Developed By OBT</asp:HyperLink>
+                                    </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                &nbsp;</td>
+        </tr>
+    </table>
+
+    </form>
+
+</body>
+</html>

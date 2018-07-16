@@ -1,0 +1,9 @@
+﻿
+
+.tblmiddle
+{
+     background-color:#20758d;
+    width:100%;
+    -moz-border-radius: 6px;/* firefox*/
+    border-radius: 6px;/*other*/
+}

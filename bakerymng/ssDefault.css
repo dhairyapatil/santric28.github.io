@@ -1,0 +1,38 @@
+﻿
+.img
+{
+     -moz-border-radius: 8px;/* firefox*/
+    border-radius: 8px;/*other*/
+    margin-bottom:10px;
+}
+
+.tbl1
+{
+    width:100%;
+    background-color:#e4dee0;
+    -moz-border-radius: 8px;/* firefox*/
+    border-radius: 8px;/*other*/  
+}
+
+.ulProduct
+{
+   color:#6D1D1D;
+   margin:0 0 0 0;   
+}
+
+.ulProduct li
+{
+   margin:0 0 0 0;   
+}
+.ulProduct li a
+{
+   color:#CC3300;
+   font-family:Calibri; 
+   text-decoration:none;
+   margin:0 0 0 0;   
+}
+
+.ulProduct li:hover a
+{
+    color:#6D1D1D;
+}

@@ -1,0 +1,126 @@
+﻿<%@ Master Language="VB" CodeFile="mpAdminMng.master.vb" Inherits="mpAdminMng" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link rel="Stylesheet" href="mpAdmin.css" type="text/css" />
+<link rel="Stylesheet" href="ssAdminLogin.css" type="text/css" />
+<link rel="Stylesheet" href="ssAdminListView.css" type="text/css" />
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            height: 49px;
+        }
+        .style3
+        {
+            width: 61px;
+        }
+        .style4
+        {
+            width: 1106px;
+        }
+        .style5
+        {
+            width: 64px;
+        }
+        .style6
+        {
+            height: 85px;
+        }
+        .style10
+        {
+            background-color: White;
+            -moz-border-radius: 6px;/* firefox*/;
+            border-radius: 6px;
+            width: 687px;
+        }
+        .style11
+        {
+            width: 653px;
+        }
+    </style>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+
+    <table class="style1" cellpadding="0" cellspacing="0">
+        <tr class="trHaderTop">
+            <td class="style2" 
+                style="border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #004080">
+                <table class="style1">
+                    <tr>
+                        <td class="style3">
+                            &nbsp;</td>
+                        <td class="style4">
+                            <ul id="a_menu" runat="server" class="menu_admin">
+                                <li><a href="#">Online Bakery</a></li>
+                                <li><a href="#">Manage Category</a>
+                                    <ul>
+                                        <li><a href="frmAdminAddCat.aspx">New Category</a></li>
+                                        <li><a href="frmAdminUpdateP.aspx">Change Category</a></li>
+                                        <li><a href="frmAdminRemovecat.aspx">Remove Category</a></li>
+                                        <li><a href="frmAdminDispCat.aspx">Display Categories</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="frmAdminAddNewP.aspx">New Product</a></li>
+                                <li><a href="frmChangeP.aspx">Change Product</a></li>
+                                <li><a href="frmRemoveP.aspx">Remove Product</a></li>
+                                <li><a href="#">Genrate Reports</a>
+                                     <ul>
+                                        <li><a href="frmBillReport.aspx">Sales Report</a></li>
+                                        <li><a href="frmCategoryReport.aspx">Category</a></li>
+                                        <li><a href="frmProductReport.aspx">Products</a></li>
+                                        <li><a href="frmUserReport.aspx">User</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </td>
+                        <td class="style5" align="right">
+                            <asp:HyperLink ID="hpLogin" runat="server" Font-Names="Arial" 
+                                Font-Underline="False" ForeColor="White" NavigateUrl="~/frmAdminLogin.aspx">Login</asp:HyperLink>
+                        </td>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="style6">
+                </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="style1">
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+                        <td class="trContPH">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </td>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+        </tr>
+    </table>
+
+</form>
+
+</body>
+</html>
